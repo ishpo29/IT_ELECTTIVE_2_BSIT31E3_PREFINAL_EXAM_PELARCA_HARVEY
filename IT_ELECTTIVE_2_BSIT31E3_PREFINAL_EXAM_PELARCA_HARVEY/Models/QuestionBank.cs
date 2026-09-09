@@ -14,8 +14,20 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceC = "It allows data to persist after the application stops",
                 ChoiceD = "It removes the need for MVC",
                 CorrectLetter = 'C',
-                Rationale = "An in-memory collection lives only in RAM while the app runs. The moment the process stops or restarts, that data is gone. A database stores data on disk (or a managed service), so it's still there the next time the application starts."
-            }
+                
+            },
+            new QuestionRecord
+            {
+                Number = 2,
+                Topic = "EF Core approaches",
+                Prompt = "Which approach is being used when an existing database is used to generate EF Core entity classes?",
+                ChoiceA = "Code-First",
+                ChoiceB = "Database-First",
+                ChoiceC = "Model-First",
+                ChoiceD = "Controller-First",
+                CorrectLetter = 'B'
+            },
+
         };
     }
 }

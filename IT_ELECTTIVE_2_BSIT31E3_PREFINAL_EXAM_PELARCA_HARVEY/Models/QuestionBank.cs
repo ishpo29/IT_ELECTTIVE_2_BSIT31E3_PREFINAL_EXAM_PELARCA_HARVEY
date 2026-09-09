@@ -181,6 +181,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "It automatically creates a ViewModel",
                 CorrectLetter = 'A'
             },
+                        new QuestionRecord
+            {
+                Number = 17,
+                Topic = "try...catch in controllers",
+                Prompt = "What is the purpose of a try...catch block in a controller?",
+                ChoiceA = "To create navigation properties",
+                ChoiceB = "To catch and handle exceptions that may occur during execution",
+                ChoiceC = "To generate database tables",
+                ChoiceD = "To perform client-side validation",
+                CorrectLetter = 'B'
+            },
         };
     }
 }

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] — Registrar's Answer Key</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="registry-header">
+        <div class="seal" aria-hidden="true">
+            <span>HP</span>
+        </div>
+        <div class="registry-title">
+            <a asp-controller="Exam" asp-action="Index" class="registry-title__link">The Registrar's Answer Key</a>
+            <p class="registry-title__subtitle">IT Elective 2 — Web Systems and Technologies · Prefinal Examination</p>
+        </div>
+        <div class="stamp-block">
+            <p class="stamp-block__name">Harvey Pelarca</p>
+            <p class="stamp-block__meta">BSIT  · Section 31E3</p>
+        </div>
+    </header>
+
+    <main class="registry-main">
+        @RenderBody()
+    </main>
+
+    <footer class="registry-footer">
+        <p>Filed by Harvey Pelarca — BSIT , Section 31E3 — 20 records on catalog</p>
+    </footer>
+</body>
+</html>

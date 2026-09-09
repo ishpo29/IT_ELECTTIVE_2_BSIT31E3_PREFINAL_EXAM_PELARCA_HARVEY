@@ -1,0 +1,21 @@
+@model List<IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models.QuestionRecord>
+@{
+    ViewData["Title"] = "Catalog Drawer";
+}
+
+<section class="drawer-intro">
+    <h1>Catalog Drawer</h1>
+    <p>Twenty record cards, filed by item number. Open a card to view the question, the filed answer, and the reasoning behind it.</p>
+</section>
+
+<div class="drawer">
+    @for (int i = 1; i <= 20; i++)
+    {
+        var record = Model.FirstOrDefault(q => q.Number == i);
+        <a class="tab @(record == null ? "tab--unfiled" : "")"
+           href="@Url.Action("Record", "Exam", new { id = i })">
+            <span class="tab__number">@i.ToString("00")</span>
+            <span class="tab__label">@(record != null ? record.Topic : "not yet filed")</span>
+        </a>
+    }
+</div>

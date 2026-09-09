@@ -1,0 +1,36 @@
+@model IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models.QuestionRecord
+@{
+    ViewData["Title"] = $"Record {Model.Number:00}";
+    var choices = new (char Letter, string Text)[]
+    {
+        ('A', Model.ChoiceA), ('B', Model.ChoiceB),
+        ('C', Model.ChoiceC), ('D', Model.ChoiceD)
+    };
+}
+
+<a class="back-link" href="@Url.Action("Index", "Exam")">&larr; back to the drawer</a>
+
+<article class="index-card">
+    <div class="index-card__head">
+        <span class="index-card__number">Item @Model.Number.ToString("00")</span>
+        <span class="index-card__topic">@Model.Topic</span>
+    </div>
+    <h2 class="index-card__prompt">@Model.Prompt</h2>
+
+    <ul class="index-card__choices">
+        @foreach (var c in choices)
+        {
+            var isCorrect = c.Letter == Model.CorrectLetter;
+            <li class="choice @(isCorrect ? "choice--correct" : "")">
+                <span class="choice__letter">@c.Letter</span>
+                <span class="choice__text">@c.Text</span>
+                @if (isCorrect)
+                {
+                    <span class="choice__stamp">CHOSEN ANSWER</span>
+                }
+            </li>
+        }
+    </ul>
+
+    
+</article>

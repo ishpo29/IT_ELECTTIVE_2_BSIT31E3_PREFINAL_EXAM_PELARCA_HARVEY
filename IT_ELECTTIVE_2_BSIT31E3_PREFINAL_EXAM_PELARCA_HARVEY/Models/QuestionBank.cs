@@ -115,6 +115,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Validate Student input",
                 CorrectLetter = 'B'
             },
+                        new QuestionRecord
+            {
+                Number = 11,
+                Topic = "ViewModels",
+                Prompt = "Why might a ViewModel be used when displaying Student and Section information?",
+                ChoiceA = "To replace the database",
+                ChoiceB = "To combine or shape the data specifically needed by the view",
+                ChoiceC = "To automatically create database tables",
+                ChoiceD = "To prevent controllers from using LINQ",
+                CorrectLetter = 'B'
+            },
 
         };
     }

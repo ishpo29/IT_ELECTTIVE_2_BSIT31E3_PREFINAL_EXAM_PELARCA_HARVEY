@@ -49,6 +49,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "RazorContext",
                 CorrectLetter = 'A'
             },
+            new QuestionRecord
+            {
+                Number = 5,
+                Topic = "EF Core scaffold command",
+                Prompt = "What does the following command primarily do?\n\ndotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models",
+                ChoiceA = "Deletes the database",
+                ChoiceB = "Creates a new MVC project",
+                ChoiceC = "Generates EF Core models and a DbContext from an existing database",
+                ChoiceD = "Starts the MVC application",
+                CorrectLetter = 'C'
+            },
 
         };
     }

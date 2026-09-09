@@ -60,6 +60,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Starts the MVC application",
                 CorrectLetter = 'C'
             },
+            new QuestionRecord
+            {
+                Number = 6,
+                Topic = "Connection string location",
+                Prompt = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?",
+                ChoiceA = "Program.cs only",
+                ChoiceB = "appsettings.json",
+                ChoiceC = "Index.cshtml",
+                ChoiceD = "Student.cs",
+                CorrectLetter = 'B'
+            },
 
         };
     }

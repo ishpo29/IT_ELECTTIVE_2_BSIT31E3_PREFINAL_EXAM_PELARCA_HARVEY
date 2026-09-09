@@ -159,6 +159,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Client-side validation cannot display messages",
                 CorrectLetter = 'A'
             },
+                new QuestionRecord
+            {
+                Number = 15,
+                Topic = "Uniqueness rules",
+                Prompt = "A school requires every student to have a unique Student Number. Which rule best represents this requirement?",
+                ChoiceA = "Student Number should always be nullable",
+                ChoiceB = "Student Number should be unique",
+                ChoiceC = "Student Number should always be the same",
+                ChoiceD = "Student Number should contain only spaces",
+                CorrectLetter = 'B'
+            },
         };
     }
 }

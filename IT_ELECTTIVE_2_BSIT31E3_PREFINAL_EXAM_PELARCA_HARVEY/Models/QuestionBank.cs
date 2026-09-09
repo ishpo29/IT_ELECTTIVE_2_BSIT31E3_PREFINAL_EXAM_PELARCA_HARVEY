@@ -192,6 +192,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "To perform client-side validation",
                 CorrectLetter = 'B'
             },
+                        new QuestionRecord
+            {
+                Number = 18,
+                Topic = "Exception-handling middleware",
+                Prompt = "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
+                ChoiceA = "UseDatabase()",
+                ChoiceB = "UseExceptionHandler()",
+                ChoiceC = "UseValidationHandler()",
+                ChoiceD = "UseMvcDatabase()",
+                CorrectLetter = 'B'
+            },
         };
     }
 }

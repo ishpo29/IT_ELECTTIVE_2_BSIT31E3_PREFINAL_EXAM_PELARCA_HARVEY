@@ -27,6 +27,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Controller-First",
                 CorrectLetter = 'B'
             },
+            new QuestionRecord
+            {
+                Number = 3,
+                Topic = "Purpose of EF Core",
+                Prompt = "What is the primary purpose of Entity Framework Core?",
+                ChoiceA = "To create HTML pages automatically",
+                ChoiceB = "To replace the MVC Controller",
+                ChoiceC = "To map objects in code to relational database data",
+                ChoiceD = "To replace the C# compiler",
+                CorrectLetter = 'C'
+            },
 
         };
     }

@@ -82,6 +82,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Many-to-One only",
                 CorrectLetter = 'B'
             },
+                        new QuestionRecord
+            {
+                Number = 8,
+                Topic = "Foreign keys",
+                Prompt = "In the following example, what is SectionId?\n\npublic int SectionId { get; set; }\npublic Section Section { get; set; }",
+                ChoiceA = "Primary key of Student",
+                ChoiceB = "Foreign key referencing Section",
+                ChoiceC = "Navigation property",
+                ChoiceD = "Database connection string",
+                CorrectLetter = 'B'
+            },
 
         };
     }

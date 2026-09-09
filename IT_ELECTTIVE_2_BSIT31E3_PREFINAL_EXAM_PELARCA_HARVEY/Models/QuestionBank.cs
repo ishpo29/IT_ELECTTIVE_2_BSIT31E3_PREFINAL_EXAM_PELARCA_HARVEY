@@ -104,6 +104,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "It validates the student's name",
                 CorrectLetter = 'B'
             },
+            new QuestionRecord
+            {
+                Number = 10,
+                Topic = ".Include() behavior",
+                Prompt = "What does .Include() generally allow EF Core to do?",
+                ChoiceA = "Delete the Section table",
+                ChoiceB = "Load related Section data together with Students",
+                ChoiceC = "Create a new Student",
+                ChoiceD = "Validate Student input",
+                CorrectLetter = 'B'
+            },
 
         };
     }

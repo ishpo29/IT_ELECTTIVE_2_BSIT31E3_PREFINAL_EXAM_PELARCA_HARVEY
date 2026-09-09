@@ -137,7 +137,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "It prevents the query from accessing the database",
                 CorrectLetter = 'A'
             },
-
+                        new QuestionRecord
+            {
+                Number = 13,
+                Topic = "Client-side validation",
+                Prompt = "Which type of validation occurs in the browser before a request is sent to the server?",
+                ChoiceA = "Database-level validation",
+                ChoiceB = "Client-side validation",
+                ChoiceC = "Server-side validation",
+                ChoiceD = "EF Core migration validation",
+                CorrectLetter = 'B'
+            },
         };
     }
 }

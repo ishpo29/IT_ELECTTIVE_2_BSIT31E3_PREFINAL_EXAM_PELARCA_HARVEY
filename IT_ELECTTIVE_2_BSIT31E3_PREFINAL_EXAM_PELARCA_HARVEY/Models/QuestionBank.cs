@@ -38,6 +38,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "To replace the C# compiler",
                 CorrectLetter = 'C'
             },
+            new QuestionRecord
+            {
+                Number = 4,
+                Topic = "DbContext role",
+                Prompt = "Which EF Core component is primarily responsible for communicating with the database?",
+                ChoiceA = "DbContext",
+                ChoiceB = "DbSetView",
+                ChoiceC = "ControllerContext",
+                ChoiceD = "RazorContext",
+                CorrectLetter = 'A'
+            },
 
         };
     }

@@ -170,6 +170,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Student Number should contain only spaces",
                 CorrectLetter = 'B'
             },
+                        new QuestionRecord
+            {
+                Number = 16,
+                Topic = "Database-level constraints",
+                Prompt = "Which is the best reason for having a database-level unique constraint on StudentNumber?",
+                ChoiceA = "It protects data integrity even if application-level validation is bypassed",
+                ChoiceB = "It makes Razor Views render faster",
+                ChoiceC = "It removes the need for a Controller",
+                ChoiceD = "It automatically creates a ViewModel",
+                CorrectLetter = 'A'
+            },
         };
     }
 }

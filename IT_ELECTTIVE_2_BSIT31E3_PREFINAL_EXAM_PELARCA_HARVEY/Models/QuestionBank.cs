@@ -214,6 +214,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Create Student 999 automatically",
                 CorrectLetter = 'B'
             },
+                        new QuestionRecord
+            {
+                Number = 20,
+                Topic = "Duplicate section assignment",
+                Prompt = "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
+                ChoiceA = "Data integrity",
+                ChoiceB = "HTML formatting",
+                ChoiceC = "CSS inheritance",
+                ChoiceD = "Razor syntax",
+                CorrectLetter = 'A'
+            },
         };
     }
 }

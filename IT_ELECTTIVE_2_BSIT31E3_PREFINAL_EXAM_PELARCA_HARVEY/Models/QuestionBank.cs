@@ -115,7 +115,7 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Validate Student input",
                 CorrectLetter = 'B'
             },
-                        new QuestionRecord
+            new QuestionRecord
             {
                 Number = 11,
                 Topic = "ViewModels",
@@ -125,6 +125,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceC = "To automatically create database tables",
                 ChoiceD = "To prevent controllers from using LINQ",
                 CorrectLetter = 'B'
+            },
+            new QuestionRecord
+            {
+                Number = 12,
+                Topic = "Include() with LINQ",
+                Prompt = "Consider this query:\n\nvar students = _context.Students.Include(s => s.Section).ToList();\n\nWhat is the main benefit of Include(s => s.Section)?",
+                ChoiceA = "It loads the related Section navigation property",
+                ChoiceB = "It creates a Section object manually",
+                ChoiceC = "It removes the foreign key",
+                ChoiceD = "It prevents the query from accessing the database",
+                CorrectLetter = 'A'
             },
 
         };

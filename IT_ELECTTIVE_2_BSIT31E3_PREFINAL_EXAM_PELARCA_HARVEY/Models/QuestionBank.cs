@@ -71,6 +71,17 @@ namespace IT_ELECTTIVE_2_BSIT31E3_PREFINAL_EXAM_PELARCA_HARVEY.Models
                 ChoiceD = "Student.cs",
                 CorrectLetter = 'B'
             },
+            new QuestionRecord
+            {
+                Number = 7,
+                Topic = "Entity relationships",
+                Prompt = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?",
+                ChoiceA = "One-to-One",
+                ChoiceB = "One-to-Many",
+                ChoiceC = "Many-to-Many",
+                ChoiceD = "Many-to-One only",
+                CorrectLetter = 'B'
+            },
 
         };
     }
